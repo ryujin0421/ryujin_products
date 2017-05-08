@@ -171,3 +171,19 @@ a:hover
     opacity: 1;
     color: #FFF100;
 }
+
+.left-icon{
+    position: absolute;
+     top: 90%;
+    left: 20%;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(0%) translateX(0%);
+}
+
+.right-icon{
+    position: absolute;
+     top: 90%;
+    left: 80%;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(0%) translateX(-100%);
+}
