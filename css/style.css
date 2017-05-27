@@ -7,7 +7,7 @@
 }
 
 body {
-    background: #15181A;
+    background: #fff;
 }
 
 .skw-pages {
@@ -180,13 +180,12 @@ body {
     background-image: url("../img/slide06.png");
 }
 
-a {
+.container a {
     background: transparent;
     content: "";
     opacity: 0;
     transition: all 0.3s;
     z-index: -1;
-    color: #333333;
     color: #333333;
     text-decoration: none;
 }
@@ -198,7 +197,7 @@ a:hover {
 
 .left-icon {
     position: absolute;
-    top: 90%;
+    top: 87%;
     left: 20%;
     -webkit-transform: translateY(-50%) translateX(-50%);
     transform: translateY(0%) translateX(0%);
@@ -206,8 +205,173 @@ a:hover {
 
 .right-icon {
     position: absolute;
-    top: 90%;
+    top: 87%;
     left: 80%;
     -webkit-transform: translateY(-50%) translateX(-50%);
     transform: translateY(0%) translateX(-100%);
+}
+
+#graphic {
+    background-image: url(../img/graphic.png);
+    background-size: cover;
+    height: 100vh;
+}
+
+#web {
+    background-image: url(../img/web.png);
+    background-size: cover;
+    height: 100vh;
+}
+
+#uiux {
+    background-image: url(../img//uiux.png);
+    background-size: cover;
+    height: 100vh;
+}
+
+#illustration{
+    background-image: url(../img/illustration.png);
+    background-size: cover;
+    height: 100vh;
+}
+
+#theothers{
+    background-image: url(../img/theothers.png);
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateY(50%) translateX(50%);
+    transform: translateY(-50%) translateX(-50%);
+}
+
+h1 {
+    font-size: 5rem;
+    color: #fff;
+}
+
+.contents {
+    background-color: #fff;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.contents img {
+    width: 100%;
+}
+
+.left-box {
+    width: 50%;
+    float: left;
+}
+
+.right-box {
+    width: 50%;
+    float: left;
+}
+
+.text {
+    margin-top: 50%;
+    margin-left: 50%;
+    -webkit-transform: translateY(50%) translateX(50%);
+    transform: translateY(-50%) translateX(-50%);
+}
+
+.text h2,
+h3,
+p {
+    color: #333333;
+}
+
+.text h2 {
+    font-size: 2rem;
+}
+
+h2 span{
+    font-size: 0.8rem;
+}
+
+.text h3 {
+    font-size: 1.2rem;
+}
+
+.text p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+
+.link{
+    width: 205px;
+    margin-top: 20px;
+    margin: 0 auto;
+}
+
+.link a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    border: 1px solid #FFF100;
+    background-color: #FFF100;
+    color: #333333;
+    padding: 10px 45px;
+    
+}
+
+.link a:hover{
+    font-size: 1.2rem;
+    text-decoration: none;
+    border: 1px solid #333333;
+    background-color: #333333;
+    color: #FFF100;
+    padding: 10px 45px;
+    transition: 0.8s;
+}
+
+.btn a {
+    font-size: 1.2rem;
+    padding: 10px 10px;
+    background-color: #333333;
+    width: 100%;
+    color: #FFF;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+}
+
+.btn a:hover {
+    color: #FFF100;
+    transition: all 0.8s;
+    font-weight: 500;
+}
+
+.slide{
+    width: 718px;
+}
+
+.simply-scroll-container {
+    position: relative;
+}
+.simply-scroll-clip {
+    position: relative;
+    overflow: hidden;
+}
+.simply-scroll-list {
+    list-style: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.simply-scroll-list li {
+    float: left; /* Horizontal scroll only */
+    padding: 0;
+    margin: 0;
+    width: 350px;
+    height: 250px;
+}
+.simply-scroll-list li img {
+    display: block;
 }
