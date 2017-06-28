@@ -59,7 +59,7 @@ body {
     height: 100%;
     -webkit-transform: skewX(-18deg);
     transform: skewX(-18deg);
-    background: #000;
+    background: #fff;
 }
 
 .skw-page__half--left .skw-page__skewed {
